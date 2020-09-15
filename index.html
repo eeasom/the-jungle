@@ -1,20 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Design by Elise</title>
     <link rel="shortcut icon" href="images/favicon.ico"/>
-    <style>
-    body{
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-    }
-    </style>
-    </body>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Nunito+Sans:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178027878-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-178027878-1');
+</script>
+<!-- Hotjar Tracking Code for easom.design -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:1991919,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
   </head>
   <body>
-    <img src="images/placeholder.jpg" alt="Design by Elise" height="1080" />
+    <header>
+      <img src="images/logo.png" />
+      <ul>
+        <li>Home</li>
+        <li>Process</li>
+        <li>Projects</li>
+        <li>Skills</li>
+        <li>Bio</li>
+        <li><button>Download Resume</button></li>
+      </ul>
+    </header>
+    <section class="hero">
+      <h1>ELISE EASOM</h1>
+      <h2>
+        <span
+          class="iconify"
+          data-inline="false"
+          data-icon="eva:pin-outline"
+          style="color: #ffffff; font-size: 30px"
+        ></span
+        >Long Beach, CA
+      </h2>
+      <p>
+        lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut ero labore et dolore magna aliqua.
+      </p>
+      <span
+        class="iconify"
+        data-inline="false"
+        data-icon="tabler:brand-linkedin"
+        style="color: #ffffff; font-size: 60px"
+      ></span>
+      <span
+        class="iconify"
+        data-inline="false"
+        data-icon="carbon:email"
+        style="color: #ffffff; font-size: 48px"
+      ></span>
+    </section>
+    <!-- Body Container -->
+    <div id="bodyContainer"></div>
+    <section class="process"></section>
+    <section class="projects"></section>
+    <h1>Skills</h1>
+    <section id="skills">
+      <div id="programs" class="skillsGridArea"><h2>Programs</h2>
+      <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p></div>
+      <div id="processSkills" class="skillsGridArea"><h2>Process Skills</h2>
+        <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p></div>
+      <div id="frontEndDev" class="skillsGridArea"><h2>Front End Development</h2>
+        <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p></div>
+      <div id="designTheory" class="skillsGridArea"><h2>Design Theory Knowledge</h2>
+        <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p></div>
+    </section>
+    <h1>Bio</h1>
+    <section id="bio">
+      <div id="demograhics" class="bioGridArea"><h2>Elise</h2></div>
+      <div id="goals" class="bioGridArea"><h2>Goals</h2></div>
+      <div id="hobbies" class="bioGridArea"><h2>Hobbies</h2></div>
+      <div id="pains" class="biosGridArea"><h2>Pains</h2></div>
+    </section>
+    <section class="convinced"></section>
+  </div>
+  <!-- End body container -->
+    <footer>
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </footer>
   </body>
 </html>
