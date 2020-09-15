@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #373738;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+header li {
+  display: inline-block;
+  padding: 0px 8px;
+}
+header p {
+  display: inline-block;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/heroImage2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 15px;
+  max-width: 1900px;
+  margin: 0 auto;
+  color: white;
+}
+
+.hero h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 72px;
+}
+
+.hero h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+}
+
+#bodyContainer {
+  margin: 0 5%;
+}
+
+#skills {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "programs, processSkills"
+    "frontEndDev, designTheory";
+  column-gap: 2vw;
+  row-gap: 2vw;
+}
+
+#bio {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "programs, processSkills"
+    "frontEndDev, designTheory";
+}
+
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+footer {
+  background-color: #373738;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
